@@ -1,0 +1,13 @@
+[package]
+name = "http-hello-world"
+edition = "2021"
+version = "0.1.0"
+
+[workspace]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+mrubyedge = "0.4.1"
+wit-bindgen = "0.30"
